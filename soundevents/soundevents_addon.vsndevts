@@ -46,6 +46,33 @@
 //reverb_24_largeBathroom
  
 
+	"music.tracks.surf_nation" = 
+	{
+		base = "amb.looping.stereo.base"
+		volume = 0.8
+		vsnd_files_track_01 = 
+		[
+			"sounds/surf_nation.vsnd",
+		]
+	}
+	"music.tracks.surf_utopia" = 
+	{
+		base = "amb.looping.stereo.base"
+		volume = 0.8
+		vsnd_files_track_01 = 
+		[
+			"sounds/surf_utopia.vsnd",
+		]
+	}
+	"music.tracks.surf_evo" = 
+	{
+		base = "amb.looping.stereo.base"
+		volume = 0.8
+		vsnd_files_track_01 = 
+		[
+			"sounds/surf_evo.vsnd",
+		]
+	}
 
 
 
