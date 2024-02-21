@@ -1,0 +1,113 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_simple_liquid.vfx"
+
+	//---- 2-Sided Rendering ----
+	F_RENDER_BACKFACES 1
+
+	//---- Creates Foam ----
+	F_FOAM 1
+
+	//---- Bubbles ----
+	g_flBubbleDepthFalloff "2.067"
+	g_flBubbleOpacity "0.000"
+	g_flBubbleScale "0.600"
+	g_flBubblesMaximum "0.650"
+	g_flBubblesMinimum "0.150"
+	g_flBubbleSpaceScale "0.750"
+	g_flBubbleSpeed "1.000"
+	g_flBubbleStrength "5.000"
+	g_vBubbleColorInner "[0.529412 0.807843 0.980392 1.000000]"
+	g_vBubbleColorOuter "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "42.513"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[0.000000 1.000000 1.000000 1.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[-0.154 0.000]"
+	g_vTexCoordScale "[0.946 0.711]"
+	g_vTexCoordScrollSpeed "[0.071 0.047]"
+
+	//---- Liquid ----
+	g_flBrightenEmptyArea "3.000"
+	g_flFoamLevelAdjust "0.000"
+	g_flFresnelGlassThickness "0.400"
+	g_flLiquidBackFade "0.000"
+	g_flLiquidBackOffset "6.000"
+	g_flLiquidBrightness "1.000"
+	g_flLiquidEmissiveStrength "0.000"
+	g_flLiquidInnerGlow "0.100"
+	g_flLiquidLevelHeight "0.000"
+	g_flLiquidLevelHeightDelta "0.300"
+	g_flLiquidRoughness "0.300"
+	g_flLiquidSharpness "30.000"
+	g_flLiquidSpecularStrength "1.000"
+	g_flLiquidSurfaceSpecularStrength "1.000"
+	g_flLiquidWobbleScale "0.010"
+	g_flLiquidWobbleSpeed "-32.484"
+	g_flLiquidWobbleWavelength "20.745"
+	g_flMaskMaximum "1.000"
+	g_flMaskMinimum "0.548"
+	g_flSurfaceTension "0.500"
+	g_flTransmissiveStrength "1.000"
+	g_flWaterLineStrength "0.500"
+	g_vFoamColor "[0.501961 1.000000 0.200000 0.000000]"
+	g_vLiquidColor "[0.000000 0.807843 0.819608 1.000000]"
+	g_vLiquidLevelDownwardsMinMidMax "[-20.000 0.000 20.000]"
+	g_vLiquidLevelSidewardsMinMidMax "[-20.000 0.000 20.000]"
+	g_vLiquidLevelUpwardsMinMidMax "[-20.000 0.000 20.000]"
+	TextureLiquidMask "materials/default/default_mask.tga"
+
+	//---- Refraction ----
+	g_flCubeRefractBrightness "2.897"
+	g_flCubeRefractLiquidTransparency "0.500"
+	g_flCubeRefractTransparency "0.500"
+	g_flRefractRoughnessMultiplier "1.000"
+
+	//---- Simple Material ----
+	TextureColorA "materials/texture_1/texture_1.png"
+	TextureMetalnessA "materials/default/default_metal.tga"
+	TextureNormalA "materials/texture_1/normalmap.png"
+	TextureRoughnessA "materials/default/default_rough.tga"
+
+	//---- Test Values ----
+	g_flTestAgitation "0.300"
+	g_flTestFoaming "0.000"
+	g_vTestGravityDir "[0.000 0.000 -1.000]"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+
+	VariableState
+	{
+		"Bubbles"
+		{
+			"_expanded" 0
+		}
+		"Color"
+		{
+		}
+		"Liquid"
+		{
+		}
+		"Refraction"
+		{
+		}
+		"Simple Material"
+		{
+		}
+		"Test Values"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}
