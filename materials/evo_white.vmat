@@ -2,7 +2,11 @@
 
 Layer0
 {
-	shader "csgo_simple.vfx"
+	shader "csgo_complex.vfx"
+
+	//---- Animation ----
+	F_TEXTURE_ANIMATION 1
+	F_TEXTURE_ANIMATION_MODE 1 // Random
 
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
@@ -17,21 +21,45 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "materials/evo_white_color.png"
+	TextureColor "materials/evo_pattern01.png"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
 
 	//---- Lighting ----
-	g_flMetalness "0.436"
+	g_flMetalness "0.904"
 	TextureRoughness "[0.858824 0.858824 0.858824 0.000000]"
 
 	//---- Normal Map ----
-	TextureNormal "materials/evo_white_normal.png"
+	TextureNormal "[0.501961 0.501961 1.000000 0.000000]"
 
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "0" // Wrap
 	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Texture Animation ----
+	g_flAnimationFrame "0.000"
+	g_flAnimationTimeOffset "0.000"
+	g_flAnimationTimePerFrame "0.084"
+	g_nNumAnimationCells "2"
+	g_vAnimationGrid "[2 2]"
+
+	UnusedVariables
+	{
+		"g_flSelfIllumAlbedoFactor" "1"
+		"g_flSelfIllumBrightness" "0"
+		"g_flSelfIllumScale" "1"
+		"g_vSelfIllumScrollSpeed" "[0.000 0.000]"
+		"g_vSelfIllumTint" "[1.000000 1.000000 1.000000 0.000000]"
+		"TextureSelfIllumMask" ""
+		"g_flDetailBlendFactor" "1"
+		"g_flDetailBlendToFull" "0"
+		"g_flDetailTexCoordRotation" "0"
+		"g_vDetailTexCoordOffset" "[0.000 0.000]"
+		"g_vDetailTexCoordScale" "[1.000 1.000]"
+		"TextureDetail" ""
+		"TextureDetailMask" ""
+	}
 
 
 	VariableState
@@ -54,6 +82,9 @@ Layer0
 		{
 		}
 		"Texture Address Mode"
+		{
+		}
+		"Texture Animation"
 		{
 		}
 	}

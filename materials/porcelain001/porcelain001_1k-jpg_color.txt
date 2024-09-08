@@ -1,0 +1,4 @@
+"settings"
+{
+	"minimum_encode_quality"		"4"
+}
