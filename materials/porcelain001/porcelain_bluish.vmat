@@ -4,6 +4,9 @@ Layer0
 {
 	shader "csgo_complex.vfx"
 
+	//---- Detail Texture ----
+	F_DETAIL_TEXTURE 3 // Normals
+
 	//---- Translucent ----
 	F_TRANSLUCENT 1
 
@@ -15,12 +18,22 @@ Layer0
 	g_flTexCoordRotation "0.000"
 	g_nScaleTexCoordUByModelScaleAxis "0" // None
 	g_nScaleTexCoordVByModelScaleAxis "0" // None
-	g_vColorTint "[0.058824 0.047059 0.450980 0.000000]"
+	g_vColorTint "[0.380392 0.862745 0.960784 1.000000]"
 	g_vTexCoordCenter "[0.500 0.500]"
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 	TextureColor ""
+
+	//---- Detail Texture ----
+	g_flDetailBlendFactor "1.000"
+	g_flDetailBlendToFull "0.000"
+	g_flDetailNormalStrength "1.000"
+	g_flDetailTexCoordRotation "0.000"
+	g_vDetailTexCoordOffset "[0.000 0.000]"
+	g_vDetailTexCoordScale "[1.000 1.000]"
+	TextureDetailMask ""
+	TextureNormalDetail ""
 
 	//---- Fog ----
 	g_bFogEnabled "1"
@@ -37,13 +50,19 @@ Layer0
 	g_nTextureAddressModeV "0" // Wrap
 
 	//---- Translucent ----
-	g_flOpacityScale "0.940"
+	g_flOpacityScale "0.760"
 	TextureTranslucency ""
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "concrete_polished"
+	}
 
 	UnusedVariables
 	{
 		"g_flAlphaTestReference" "0.384"
 		"g_flAntiAliasedEdgeStrength" "1"
+		"TextureDetail" ""
 	}
 
 
@@ -53,6 +72,9 @@ Layer0
 		{
 		}
 		"Color"
+		{
+		}
+		"Detail Texture"
 		{
 		}
 		"Fog"

@@ -73,7 +73,51 @@
 			"sounds/surf_evo.vsnd",
 		]
 	}
-
+	"music.tracks.ubahnrider_fragezoichen" = 
+	{
+		base = "amb.looping.stereo.base"
+		volume = 0.8
+		vsnd_files_track_01 = 
+		[
+			"sounds/ubahnrider_fragezoichen.vsnd",
+		]
+	}
+	"music.tracks.ubahnrider_molecules" = 
+	{
+		base = "amb.looping.stereo.base"
+		volume = 0.8
+		vsnd_files_track_01 = 
+		[
+			"sounds/ubahnrider_molecules.vsnd",
+		]
+	}
+	"music.tracks.ubahnrider_surf_evo" = 
+	{
+		base = "amb.looping.stereo.base"
+		volume = 0.8
+		vsnd_files_track_01 = 
+		[
+			"sounds/ubahnrider_surf_evo.vsnd",
+		]
+	}
+	"music.tracks.ubahnrider_reprise" = 
+	{
+		base = "amb.looping.stereo.base"
+		volume = 0.8
+		vsnd_files_track_01 = 
+		[
+			"sounds/ubahnrider_reprise.vsnd",
+		]
+	}
+	"music.tracks.ubahnrider_trapped" = 
+	{
+		base = "amb.looping.stereo.base"
+		volume = 0.8
+		vsnd_files_track_01 = 
+		[
+			"sounds/ubahnrider_trapped.vsnd",
+		]
+	}
 
 
 
