@@ -13,7 +13,9 @@ only good vibes.
 
 music: Ubahnrider - Momentum EP (STS006)
 
-
+Version 1.7:
+- no breakouts possable
+- polish design
 
 Version 1.6:
 - new look
