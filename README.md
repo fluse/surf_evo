@@ -7,6 +7,13 @@
 - [Troubleshooting](#troubleshooting)
 - [Changelog](#changelog)
 
+- Discord Servers
+    - [CS2 Surf](https://discord.gg/BAWt9YY7)
+    - [MapCore](https://discord.gg/R47TPbMb)
+- Resources
+    - [Skyboxes](https://polyhaven.com/hdris/skies)
+    - [Textures](https://ambientcg.com/)
+
 ---
 
 ## Troubleshooting
