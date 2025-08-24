@@ -2,8 +2,10 @@
 
 **creator nZero**
 
-[SteamWorkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3075725935)
-[CS Surf Map Guide](https://github.com/Chent-AU/CS2-Surf-Mapping)
+- [SteamWorkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3075725935)
+- [CS Surf Map Guide](https://github.com/Chent-AU/CS2-Surf-Mapping)
+- [Troubleshooting](#troubleshooting)
+- [Changelog](#changelog)
 
 ---
 
