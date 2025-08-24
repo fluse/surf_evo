@@ -1,11 +1,19 @@
 # surf_evo
 
+**creator nZero**
+
 [SteamWorkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3075725935)
+[CS Surf Map Guide](https://github.com/Chent-AU/CS2-Surf-Mapping)
+
+---
 
 ## Troubleshooting
 
 if you got problems with compiling this map, make sure you are using following NVidia Drivers [561.09](https://www.nvidia.com/en-us/drivers/details/232538/)
 
+---
+
+## Changelog
 
 stage based T1 surf map with infinite loop.
 
