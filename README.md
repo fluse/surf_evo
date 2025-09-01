@@ -13,22 +13,22 @@
 - Resources
     - [Skyboxes](https://polyhaven.com/hdris/skies)
     - [Textures](https://ambientcg.com/)
+    - [Sounds](https://pixabay.com/sound-effects/)
 
 ---
 
 ## Troubleshooting
 
-if you got problems with compiling this map, make sure you are using following NVidia Drivers [561.09](https://www.nvidia.com/en-us/drivers/details/232538/)
+if you got problems while compiling this map, make sure you are using following NVidia Drivers [561.09](https://www.nvidia.com/en-us/drivers/details/232538/)
 
 ---
 
 ## Changelog
 
-stage based T1 surf map with infinite loop.
-
-only good vibes.
-
-music: Ubahnrider - Momentum EP (STS006)
+Version 1.8:
+- add fall sound
+- add welcome plattform
+- add collectables
 
 Version 1.7:
 - no breakouts possable
