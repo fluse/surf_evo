@@ -45,7 +45,24 @@
 //reverb_23_smallBathroom
 //reverb_24_largeBathroom
  
-
+ 	"sound.environment.coin" = 
+	{
+		base = "amb.looping.stereo.base"
+		volume = 0.8
+		vsnd_files_track_01 = 
+		[
+			"sounds/coin.vsnd",
+		]
+	}
+	"sound.environment.impact" = 
+	{
+		base = "amb.looping.stereo.base"
+		volume = 0.8
+		vsnd_files_track_01 = 
+		[
+			"sounds/impact.vsnd",
+		]
+	}
 	"music.tracks.surf_nation" = 
 	{
 		base = "amb.looping.stereo.base"
