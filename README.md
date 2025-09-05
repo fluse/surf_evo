@@ -25,10 +25,12 @@ if you got problems while compiling this map, make sure you are using following 
 
 ## Changelog
 
+- add collectables
+
 Version 1.8:
 - add fall sound
 - add welcome plattform
-- add collectables
+- fix all breakouts
 
 Version 1.7:
 - no breakouts possable
